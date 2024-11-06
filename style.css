@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    background-color:#555555;
+}
+
+#titre {
+    font-family: "Yanone Kaffeesatz", serif;
+    box-sizing: content-box;
+    background-color: #F5CB5C;
+    padding: 150px;
+
+} 
+
+#PicsCat {
+    border-image: resolution 100px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.center {
+    text-align: center;
+}
+
+
+nav {
+    background-color: #333532; 
+    padding: 10px;
+    text-align: center;
+    box-shadow: inset white;
+    font-family: "Qwigley", serif;
+    font-size: larger;
+}
+
+#navpage {
+    display: flex;
+    justify-content: space-evenly;
+    font-family: "Ubuntu", sans-serif;
+    font-size: larger;
+}
+
+#Men {
+   display: flex;
+justify-content: space-around;
+align-items: center;
+}
+
+a {
+    text-decoration-color: #939597;
+}
+ a:hover { color: #ffffff;
+ }
+
+ footer { background-color:#F5CB5C;
+
+ }
+
+
+ .mP{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+ }
+ .mp-img{
+    width: 40%;
+    border: #333532;
+    box-shadow: #333532;
+ }
